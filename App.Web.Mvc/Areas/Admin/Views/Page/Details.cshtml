@@ -1,0 +1,36 @@
+﻿@model Page
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1>Sayfa Detay</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4 offset-4">
+       
+            <div class="form-group">
+                <label asp-for="@Model.Title" class="control-label">Başlık</label>
+                <input asp-for="@Model.Title" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Content" class="control-label">İçerik</label>
+            <textarea asp-for="@Model.Content" class="form-control" rows="5" disabled></textarea>      
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Content_One" class="control-label">İçerik</label>
+            <textarea asp-for="@Model.Content_One" class="form-control" rows="5" disabled></textarea>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Content_Two" class="control-label">İçerik</label>
+            <textarea asp-for="@Model.Content_Two" class="form-control" rows="5" disabled></textarea>
+            </div>
+                
+            <div class="form-group">
+                 <a class="btn btn-primary" asp-action="Index">Listeye Geri Dön</a>   
+            </div>
+       
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,135 @@
+﻿@using App.Shared.Utilities.Results.Concrete;
+@model DataResult<App.Entities.Dtos.PageListDto>
+@{
+	Layout = "_LayoutAdmin";
+}
+<div class="card mt-2">
+	<div class="card-header">
+		<i class="fas fa-table mr-1"></i>
+		Sayfalar
+	</div>
+	<div class="card-body">
+
+		<div class="table-responsive">
+			<div>
+				<a asp-area="Admin" asp-controller="Page" asp-action="Create" class="btn btn-success mb-3">Sayfa Ekle</a>
+			</div>
+			<table class="table table-bordered display" id="newsTable" width="100%" cellspacing="0">
+				<thead>
+					<tr>
+
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().Title)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().Content)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().Content_One)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().Content_Two)
+						</th>		
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().CreatedAt)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().UpdatedAt)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().IsDeleted)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().IsActive)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().CreatedByName)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().ModifiedByName)
+						</th>
+
+						<th>İşlemler</th>
+
+					</tr>
+				</thead>
+
+				<tbody>
+					@foreach (var item in Model.Data.Pages)
+					{
+						<tr>
+							<td>
+								@Html.DisplayFor(modelItem => item.Title)
+							</td>
+							<td>
+								@(item.Content.ToString().Length > 50 ? item.Content.ToString().Substring(0, 50) + "..." : item.Content)
+							</td>
+							<td>
+								@(item.Content_One.ToString().Length > 50 ? item.Content_One.ToString().Substring(0, 50) + "..." : item.Content_One)
+							</td>
+							<td>
+								@item.Content_Two
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.CreatedAt)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.UpdatedAt)
+							</td>
+							<td>@(item.IsDeleted ? "Yes" : "No")</td>
+							<td>@(item.IsActive ? "Yes" : "No")</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.CreatedByName)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.ModifiedByName)
+							</td>
+							<td class="text-nowrap">
+								<a class="btn btn-primary btn-sm " asp-area="Admin" asp-controller="Page" asp-action="Edit" asp-route-id="@item.Id"><span class="fas fa-edit"></span></a>
+								<a class="btn btn-danger btn-sm " asp-area="Admin" asp-controller="Page" asp-action="Delete" asp-route-id="@item.Id"><span class="fas fa-minus-circle"></span></a>
+							</td>
+						</tr>
+					}
+				</tbody>
+				<tfoot>
+
+					<tr>
+
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().Title)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().Content)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().Content_One)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().Content_Two)
+						</th>			
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().CreatedAt)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().UpdatedAt)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().IsDeleted)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().IsActive)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().CreatedByName)
+						</th>
+						<th>
+							@Html.DisplayNameFor(model => model.Data.Pages.First().ModifiedByName)
+						</th>
+						<th>İşlemler</th>
+
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+</div>

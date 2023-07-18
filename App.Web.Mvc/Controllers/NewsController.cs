@@ -31,13 +31,15 @@ namespace App.Web.Mvc.Controllers
 
 			pageIndex = pageNo.HasValue ? Convert.ToInt32(pageNo) : 1;
 			var search = await _newsService.SearchAsync(keyword, pageIndex, pageSize, false);
-			if (search != null)
+            var newsList = await _newsService.GetAllByNonDeletedAndActiveAsync();
+            if (search != null)
 			{
 				return View(new SearchViewModel
 				{
 					NewsList = search,
 					Keyword = keyword,
-				});
+                    News = newsList.Data
+                });
 			}
 			return NotFound();
 		}

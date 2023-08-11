@@ -18,25 +18,30 @@ Web sitesi ile ilgili bazı görseller aşağıda bulunmaktadır. :point_down:
 
 :purple_circle: Web sitesi genel görünüm :
 
-! [haberSistemi1](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/3d38af0e-abc2-4da4-af60-b50d7f2faeba)
+![haberSistemi](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/3d38af0e-abc2-4da4-af60-b50d7f2faeba)
 
-:purple_circle: Search ile ilgili haberi arama :
 
-! [haberSistemi7](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/7e86bd69-fdd4-4085-a7c0-4eecf0dfc5cc)
+:purple_circle: Search ile istenen haberi arama :
+
+![haberSistemi](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/7e86bd69-fdd4-4085-a7c0-4eecf0dfc5cc)
+
 
 :purple_circle: Pagination :
 
-! [haberSistemi6](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/ac7f00d6-4297-4d19-b92a-49d0ee509a64)
+![haberSistemi6](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/4fb92ace-7ef5-4ad5-b860-e110ce70357d)
+
 
 :purple_circle: SEO Url :
 
-![haberSistemi13](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/ea85e0f9-9140-43d3-8329-666bdcea8c7a)
+![haberSistemi13](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/ba0f2676-394a-4ec7-b35b-db64faeba059)
+
 
 :purple_circle: Admin Paneli :
 
-![haberSistemi8](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/3462fd9e-465d-4ff7-b924-fd5fcd75b178)
+![haberSistemi8](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/f1591506-ef01-44b6-953b-52480158dfbb)
+
 
 :purple_circle: Kullanıcılar ve Rol atama :
 
-![haberSistemi10](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/b6ca3792-351c-4148-ab81-7ce5e295e96e)
+![haberSistemi10](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/90e5a68f-1791-42aa-815a-6e402339e986)
 

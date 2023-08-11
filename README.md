@@ -14,29 +14,29 @@ Proje içerisinde kullanılan teknolojiler:
 * N katmanlı mimari ile projenin daha okunabilir olması,
 * Search ile girilen kelime ile ilgili tüm haberlerin listelenmesi
 
-Web sitesi ile ilgili bazı görseller aşağıda bulunmaktadır.
+Web sitesi ile ilgili bazı görseller aşağıda bulunmaktadır. :point_down:
 
-Web sitesi genel görünüm :
+:purple_circle: Web sitesi genel görünüm :
 
 ![haberSistemi1](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/7094affd-79ad-43d3-ab29-e3c3bc985183)
 
-Search ile ilgili haberi arama :
+:purple_circle: Search ile ilgili haberi arama :
 
 ![haberSistemi7](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/9bc87af5-9637-4043-beb4-0362e4db7d1b)
 
-Pagination :
+:purple_circle: Pagination :
 
 ![haberSistemi6](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/ac7f00d6-4297-4d19-b92a-49d0ee509a64)
 
-SEO Url :
+:purple_circle: SEO Url :
 
 ![haberSistemi13](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/ea85e0f9-9140-43d3-8329-666bdcea8c7a)
 
-Admin Paneli :
+:purple_circle: Admin Paneli :
 
 ![haberSistemi8](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/3462fd9e-465d-4ff7-b924-fd5fcd75b178)
 
-Kullanıcılar ve Rol atama :
+:purple_circle: Kullanıcılar ve Rol atama :
 
 ![haberSistemi10](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/b6ca3792-351c-4148-ab81-7ce5e295e96e)
 

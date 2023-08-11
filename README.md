@@ -18,11 +18,11 @@ Web sitesi ile ilgili bazı görseller aşağıda bulunmaktadır. :point_down:
 
 :purple_circle: Web sitesi genel görünüm :
 
-![haberSistemi1](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/7094affd-79ad-43d3-ab29-e3c3bc985183)
+![haberSistemi1](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/3d38af0e-abc2-4da4-af60-b50d7f2faeba)
 
 :purple_circle: Search ile ilgili haberi arama :
 
-![haberSistemi7](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/9bc87af5-9637-4043-beb4-0362e4db7d1b)
+![haberSistemi7](https://github.com/aysemineokyay/HaberSistemi/assets/114666477/57891f05-bb52-458e-8619-78b98551ffdd)
 
 :purple_circle: Pagination :
 
